@@ -1,0 +1,10 @@
+C:\Users\vitor.csouza14\source\repos\FarmaciaBD\FarmaciaBD\obj\Debug\FarmaciaBD.csproj.AssemblyReference.cache
+C:\Users\vitor.csouza14\source\repos\FarmaciaBD\FarmaciaBD\obj\Debug\FarmaciaBD.csproj.SuggestedBindingRedirects.cache
+C:\Users\vitor.csouza14\source\repos\FarmaciaBD\FarmaciaBD\obj\Debug\FarmaciaBD.Cadastrar.resources
+C:\Users\vitor.csouza14\source\repos\FarmaciaBD\FarmaciaBD\obj\Debug\FarmaciaBD.Farma.resources
+C:\Users\vitor.csouza14\source\repos\FarmaciaBD\FarmaciaBD\obj\Debug\FarmaciaBD.Form1.resources
+C:\Users\vitor.csouza14\source\repos\FarmaciaBD\FarmaciaBD\obj\Debug\FarmaciaBD.menuEntrar.resources
+C:\Users\vitor.csouza14\source\repos\FarmaciaBD\FarmaciaBD\obj\Debug\FarmaciaBD.PlanoSaude.resources
+C:\Users\vitor.csouza14\source\repos\FarmaciaBD\FarmaciaBD\obj\Debug\FarmaciaBD.Properties.Resources.resources
+C:\Users\vitor.csouza14\source\repos\FarmaciaBD\FarmaciaBD\obj\Debug\FarmaciaBD.csproj.GenerateResource.cache
+C:\Users\vitor.csouza14\source\repos\FarmaciaBD\FarmaciaBD\obj\Debug\FarmaciaBD.csproj.CoreCompileInputs.cache

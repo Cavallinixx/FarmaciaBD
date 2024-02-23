@@ -108,6 +108,7 @@
     <Compile Include="DAOFinal.Designer.cs">
       <DependentUpon>DAOFinal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Entrar.cs" />
     <Compile Include="Farma.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -157,6 +158,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -171,6 +173,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e1c499808c0e8dd42240b0c6ebec0b4b %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e1c499808c0e8dd42240b0c6ebec0b4b %281%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\56c05035e5bd78b26f898e2c933d840f.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

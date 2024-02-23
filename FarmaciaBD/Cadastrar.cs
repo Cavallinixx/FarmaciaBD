@@ -13,39 +13,61 @@ namespace FarmaciaBD
 {
     public partial class Cadastrar : Form
     {
+        DAOFinal bd;
+        
         public Cadastrar()
         {
             InitializeComponent();
+            bd = new DAOFinal();
         }
-
-        private void Cadastrar_Load(object sender, EventArgs e)
+        private void codigoResposta_TextChanged(object sender, EventArgs e)
         {
 
-        }
-
-        private void RespostaNome_TextChanged(object sender, EventArgs e)
+        }// fim codigo resposta
+ 
+        private void respostaNome_TextChanged(object sender, EventArgs e)
         {
 
-        }//fim resposta nome
+        }//fim nome
 
-        private void maskedTextBox2_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        private void telefoneResposta_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
 
-        }//fim resposta RG
+        }//fim telefone 
 
-        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        private void rgResposta_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
 
-        }//fim resposta telefone
+        }//fim rg resposta
 
-        private void maskedTextBox3_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        private void cpfResposta_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
 
-        }// fim resposta do CPF
-
+        }//fim cpf
         private void avançar_Click(object sender, EventArgs e)
         {
 
+            int cod = Convert.ToInt32(codigo.Text);
+            string name = nome.Text;
+            string tel = telefoneResposta.Text;
+            string rg = rgResposta.Text;
+            string cpf = cpfResposta.Text;
+
+            bd.Inserir(cod, name, tel, rg, cpf);//Inserindo no BD
+
+            //Limpando os campos
+            codigo.Text = "";
+            nome.Text = "";
+            telefoneResposta.Text = "";
+            rgResposta.Text = "";
+            cpfResposta.Text = "";
         }//fim do avançar
+
+        private void codigoResposta_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }//fim codigo resposta
+
+        
     }//fim do metodo
 }//fim do projeto 

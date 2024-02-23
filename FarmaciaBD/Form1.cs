@@ -24,12 +24,13 @@ namespace FarmaciaBD
 
         private void entrar_Click(object sender, EventArgs e)
         {
-
+           
         }//fim entrar
 
         private void cadastrar_Click(object sender, EventArgs e)
         {
-
+            Cadastrar cad = new Cadastrar();
+            cad.ShowDialog();//Aparecer a tela cadastrar
         }//fim cadastrar
 
         private void sair_Click(object sender, EventArgs e)

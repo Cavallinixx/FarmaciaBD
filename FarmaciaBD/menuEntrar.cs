@@ -34,7 +34,9 @@ namespace FarmaciaBD
 
         private void cadastrar_Click(object sender, EventArgs e)
         {
-
+            Cadastrar cad = new Cadastrar();
+            cad.ShowDialog();//Aparecer a tela cadastrar
         }//fim do cadastrar
-    }
-}
+    
+    }//fim do metodo 
+}//fim do projeto 
